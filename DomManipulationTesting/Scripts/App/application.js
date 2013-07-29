@@ -1,4 +1,4 @@
-﻿window.Feminists = window.Feminists || {
+window.Feminists = window.Feminists || {
     listing: []
 };
 
