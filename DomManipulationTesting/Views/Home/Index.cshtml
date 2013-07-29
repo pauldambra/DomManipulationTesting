@@ -1,0 +1,21 @@
+﻿<div id="body">
+    <section class="featured">
+        <div class="content-wrapper">
+            <hgroup class="title">
+                <h1>A list of historical feminists!</h1>
+            </hgroup>
+            <ul id="result-container">
+                
+            </ul>
+            <button onclick="window.Feminists.shuffle()">Shuffle!</button>
+        </div>
+    </section>
+</div>
+@section scripts
+{
+    <script type="text/javascript">
+        $(window).load(function() {
+            window.Feminists.load();
+        });
+    </script>
+}
